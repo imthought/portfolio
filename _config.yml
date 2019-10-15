@@ -1,0 +1,67 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: Forrest Lagacé
+email: fel@egraphunk.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Experienced Senior Full Stack Web Developer, and Graphic Designer with over fifteen years of experience. 
+  If you are looking for a person who can do everything from wire-frame, and logo design to custom module 
+  development and server management. I am one of those people. I have worked on most aspects of website 
+  design development and marketing at one point or another, and my greatest strength is my ability to 
+  learn new things.
+  Language fluency - includes PHP, SQL, JavaScript, HTML, CSS, Python, C++ and others.
+  CMS Experience - includes front end design and module development in Magento, Shopify, WordPress, 
+  Drupal, CiviCRM, Silver Stripe and others.
+  Server-Side / IT - Linux including command line and server configuration using Apache, Ngnix, and 
+  various build tools including Vagrant, and Docker. Also competent in OSX and Windows.
+  Design, and Marketing - degree in Graphic Design with in-depth knowledge fo the Adobe Design Suite,
+  and have done work form newspaper advertising to magazine and brochure layouts in addition to my 
+  experience in web site design.
+  SEO / Accessibility - Experienced designing websites to meet SEO standards including Structural Markup 
+  Schema, and designing for accessibility.
+baseurl: "graphunk.com" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
